@@ -40,7 +40,7 @@ class AutherListAdapter : RecyclerView.Adapter<AutherListAdapter.MyViewHolder>()
     class MyViewHolder(view:View) : RecyclerView.ViewHolder(view){
         val tView = view.findViewById<TextView>(R.id.tView)
         fun bind(data : Hits){
-            tView.text = data.toString()
+            tView.text = data.author
         }
     }
 

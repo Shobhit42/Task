@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.task.adapter.AutherListAdapter
 import com.example.task.api.HitsService
 import com.example.task.api.RetrofitHelper
+import com.example.task.models.Hits
 import com.example.task.repository.HitsRepository
 import com.example.task.viewmodels.MainViewModel
 import com.example.task.viewmodels.MainViewModelFactory
