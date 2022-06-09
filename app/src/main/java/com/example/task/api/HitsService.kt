@@ -7,6 +7,6 @@ import retrofit2.http.Query
 
 interface HitsService {
 
-    @GET("/search")
+    @GET("search")
     suspend fun getHits(@Query("page") page : Int) : Response<FirstHits>
 }
